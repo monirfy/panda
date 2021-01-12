@@ -7,14 +7,412 @@
     <title>Panda Commerce - eCommerce website.</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Asesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Main Menu -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Backpack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shoes</a>
+                    </li>
+                </ul>
 
+                <!-- User Account -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-user me-2"></i>My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-shopping-cart me-2"></i>Cart</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
 
+    <!-- Carousel Section -->
+    <div class="container py-5">
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center text-center text-lg-start">
+                        <div class="col-lg-8">
+                            <div class="carousel-text mb-4 mb-lg-0">
+                                <h1>Skullcandy Wireless Headphone</h1>
+                                <p class="lead">This is the best tv in the world for people who just want.</p>
+                                <h3>$1200</h3>
+                                <button class="btn btn-primary mt-4"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="carousel-img">
+                                <img class="img-fluid" src="assets/img/banner/banner2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center text-center text-lg-start">
+                        <div class="col-lg-8">
+                            <div class="carousel-text">
+                                <h1>Indy True Wireless Earbuds</h1>
+                                <p>World for people who just want to waste time in front of tv.</p>
+                                <h3>$1200</h3>
+                                <button class="btn btn-primary mt-4"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="carousel-img">
+                                <img class="img-fluid" src="assets/img/banner/banner1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center text-center text-lg-start">
+                        <div class="col-lg-8">
+                            <div class="carousel-text">
+                                <h1>Mega LCD TV For Sports</h1>
+                                <p>People who just want to waste time in front of tv.</p>
+                                <h3>$1200</h3>
+                                <button class="btn btn-primary mt-4"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="carousel-img">
+                                <img class="img-fluid" src="assets/img/banner/banner3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Categories -->
+    <div class="container categories">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="categories__block mb-3 mb-lg-0">
+                    <a href="">
+                        <div class="d-flex rounded align-items-center justify-content-between bg-primary p-4">
+                            <div class="categories-info">
+                                <h2>Backpack</h2>
+                                <p class="mb-0">16 Products</p>
+                            </div>
+                            <div class="categories-img">
+                                <img class="w-100" src="assets/img/categories/bag.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="categories__block  mb-3 mb-lg-0">
+                    <a href="">
+                        <div class="d-flex rounded align-items-center justify-content-between bg-success p-4">
+                            <div class="categories-info">
+                                <h2>Watch</h2>
+                                <p class="mb-0">16 Products</p>
+                            </div>
+                            <div class="categories-img">
+                                <img class="w-100" src="assets/img/categories/watch.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="categories__block  mb-3 mb-lg-0">
+                    <a href="">
+                        <div class="d-flex rounded align-items-center justify-content-between bg-danger p-4">
+                            <div class="categories-info">
+                                <h2>Shoes</h2>
+                                <p class="mb-0">16 Products</p>
+                            </div>
+                            <div class="categories-img">
+                                <img class="w-100" src="assets/img/categories/shoes.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Block Backpack -->
+    <section class="products py-5">
+        <div class="container">
+            <!-- Products Block Heading -->
+            <div class="heading d-flex justify-content-between align-items-center mb-3">
+                <div class="heading__text">
+                    <h3>Backpack</h3>
+                </div>
+                <div class="heading__link">
+                    <a class="btn btn-primary btn-sm" href="#">Shop All</a>
+                </div>
+            </div>
+
+            <div class="row">
+                
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/bag1.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Backpack</a>
+                            <a class="card-title" href="">Amazfit GTS 2</a>
+                            <p class="price">$99 <del class="small">$110</del></p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/bag4.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Backpack</a>
+                            <a class="card-title" href="">Red Laltu Bag</a>
+                            <p class="price">$80</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/bag2.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Backpack</a>
+                            <a class="card-title" href="">Blue Niltu Bag</a>
+                            <p class="price">$30</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/bag3.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Backpack</a>
+                            <a class="card-title" href="">Black Kaltu Bag</a>
+                            <p class="price">$45 <del class="small">$50</del></p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Block Watch -->
+    <section class="products py-5">
+        <div class="container">
+            <!-- Products Block Heading -->
+            <div class="heading d-flex justify-content-between align-items-center mb-3">
+                <div class="heading__text">
+                    <h3>Watch</h3>
+                </div>
+                <div class="heading__link">
+                    <a class="btn btn-primary btn-sm" href="">Shop All</a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/watch1.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Amazfit GTS 2</a>
+                            <p class="price">$120 <del class="small">$125</del></p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/watch2.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Amazfit GTR 2e</a>
+                            <p class="price">$150</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/watch3.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Galaxy Watch Active 2</a>
+                            <p class="price">$230</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/watch4.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Panda Watch Pro 2</a>
+                            <p class="price">$230</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Block Shoes -->
+    <section class="products py-5">
+        <div class="container">
+            <!-- Products Block Heading -->
+            <div class="heading d-flex justify-content-between align-items-center mb-3">
+                <div class="heading__text">
+                    <h3>Shoes</h3>
+                </div>
+                <div class="heading__link">
+                    <a class="btn btn-primary btn-sm" href="">Shop All</a>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/shoe1.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Travis Scott Nike</a>
+                            <p class="price">$120 <del class="small">$125</del></p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/shoe2.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Nike Adapt BB Shoe</a>
+                            <p class="price">$150</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/shoe3.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Zalando Air Max 270</a>
+                            <p class="price">$230</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+
+                <!-- Single Product -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3 mb-md-0">
+                        <a href=""><img src="assets/img/products/shoe4.jpg" class="img-fluid card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <a class="products__cat" href="">Watch</a>
+                            <a class="card-title" href="">Nike CruzrOne Shoe </a>
+                            <p class="price">$230</p>
+                            <a href="#" class="btn btn-primary btn-sm"> <i class="fa fa-shopping-cart me-1"></i> Buy Now</a>
+                        </div>
+                    </div>
+                </div> <!-- End Single Product -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe -->
+    <section class="subscribe">
+        <div class="container  bg-light py-5">
+            <div class="heading text-center mb-5">
+                <h2 class="">Subscribe</h2>
+                <p class="lead">Get updates on sales, specials and more</p>
+            </div>
+            <form class="row justify-content-center">
+                <div class="col-sm-9 col-lg-5">
+                    <input type="text" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-sm-3 col-lg-2">
+                  <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!-- End Subscribe -->
     
+    <!-- Footer -->
+    <footer class="text-center py-5">
+        <div class="container">
+            <p class="mb-0">Copyright © 2021 | This template made with <i class="icons icon-heart"></i> by <a href="http://monirh.com" target="_blank">Monir H</a></p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
     <!-- Bootstrap Js -->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Main Js -->
